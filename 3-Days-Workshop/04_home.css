@@ -1,0 +1,14 @@
+li{
+    font-size: 30px;
+}
+div{
+    height: 100px;
+    width:100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+div:hover{
+    background-color: yellow;
+    transition: 4s;
+    border-radius: 50%;
+}

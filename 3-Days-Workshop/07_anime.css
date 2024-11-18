@@ -1,0 +1,30 @@
+#parent{
+    border: 2px solid green;
+    height: 600px;
+}
+#parent:hover .one{
+    margin-left: 1215px;
+    transition: 5s;
+}
+#one{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+}
+#two{
+    background-color:green;
+    height: 100px;
+    width: 100px;
+
+}
+#three{
+    background-color:blue;
+    height: 100px;
+    width: 100px;
+}
+#four{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
