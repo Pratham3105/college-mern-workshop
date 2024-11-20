@@ -10,7 +10,7 @@ for(let btn of button){
             inp.value = eval(inp.value)
         }
         else{
-            text=text+inp.value
+            inp.value+=text
         }
     })
 }
