@@ -34,8 +34,56 @@
 
 // export default App
 
-import React, { useEffect, useState } from 'react'
-// import Home from './home'
+// import React, { useState } from 'react'
+// const App = () => {
+//     let [count,SetCount]=     useState(0)
+//   // Hook
+//   // let count=0
+//   function fun1(){
+//     SetCount(count+2)
+//     // console.log('heheheheh'); 
+//   }
+//   function fun2(){
+//     SetCount(count-2)
+//     // console.log('heheheheh'); 
+//   }
+//   function fun3(){
+//     SetCount(0)
+//     // console.log('heheheheh'); 
+//   }
+//   return (
+//     <div> 
+//       <h1> {count}</h1> 
+//       <button onClick={fun1}>++</button>
+//       <button onClick={fun2}>--</button>
+//       <button onClick={fun3}>reset</button>
+
+//      </div> 
+//   )
+// }
+// export default App
+
+// import React, { useState } from 'react'
+// const App = () => {
+//   let [color,SetColor]=useState('green')
+//   function fun1(){
+//     SetColor('red')
+//   }
+//   return (
+//     <div style={{backgroundColor:color,height:"100vh"}}>
+//       <button onClick={fun1}>red</button>
+//       <button onClick={ ()=>{SetColor('yellow')}}>yellow</button>
+//       <button onClick={ ()=>{SetColor('blue')}}>blue</button>
+//       <button onClick={ ()=>{SetColor('black')}}>black</button>
+
+
+//     </div>
+//   )
+// }
+
+// export default App
+
+// import React, { useEffect, useState } from 'react'
 
 // const App = ({a}) => {
 //   let arr = [1,2,3,4,5,6]
@@ -54,6 +102,7 @@ import React, { useEffect, useState } from 'react'
 //   )
 // }
 
+import React, { useEffect, useState } from 'react'
 const App = () => {
   // console.log('helloooooo');
   let [count, SetCount] = useState(1)
