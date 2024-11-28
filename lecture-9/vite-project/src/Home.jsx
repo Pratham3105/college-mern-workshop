@@ -54,6 +54,20 @@
 // }
 // export default Home
 
+// import React, { useContext } from 'react'
+// import Context from './Context'
+
+// const Home = () => {
+//    let data=    useContext(Context)
+//   return (
+//     <div>
+//       <h1> {data}</h1>
+//     </div>
+//   )
+// }
+
+// export default Home
+
 import React, { useEffect, useState } from 'react'
 import './Home.css'
 import OneCard from './OneCard'
